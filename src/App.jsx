@@ -43,7 +43,6 @@ const App = () => {
   }, [searchImages, page]);
 
   const handleSetQuery = newQuery => {
-    
     setGallery([]);
     setPage(1);
     setSearchImages(newQuery);

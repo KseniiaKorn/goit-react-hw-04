@@ -13,11 +13,12 @@ const ImageModal = ({ isOpen, onClose, image }) => {
             overlayClassName={s.overlay}
             shouldCloseOnOverlayClick={true}
         >
-            <div>
+            <div className={s.modalContent}>
                 <img
-                    onClick={onClose}
+                    // onClick={onClose}
                     src={image.urls.regular}
                     alt={image.alt_description || "Selected"}
+                    className={s.image}
                 />
             </div>
         </Modal>
