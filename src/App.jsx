@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { fetchGallery } from './services/api';
-import ImageGallery from './components/ImageGallery/imageGallery';
+import ImageGallery from './components/ImageGallery/ImageGallery';
 import SearchBar from './components/SearchBar/SearchBar';
 import Loader from './components/Loader/Loader';
 import ErrorMessage from './components/ErrorMessage/ErrorMessage';
